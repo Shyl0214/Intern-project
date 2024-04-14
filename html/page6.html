@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/page6.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <h4>9:41</h4>
+        <div class="icons">
+          <i class="fa fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-three-quarters"></i>
+        </div>
+      </nav>
+
+      <div class="header">
+        <div>
+          <h2 id="header">Workout Schedule</h2>
+        </div>
+        <div class="i">
+          <button id="btn">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="graph">
+        <canvas id="myChart" style="width: 100%; max-width: 700px"></canvas>
+      </div>
+
+      <div class="content calories">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <p>You've burned fewer calories than yesterday. Time to get moving!</p>
+      </div>
+
+      <div class="workout">
+        <h3>Upcoming Workout</h3>
+        <p>see more</p>
+      </div>
+
+      <div class="workout-sec">
+        <div class="left">
+          <div class="img-div">
+            <img src="../imgs/workout.png" alt="" />
+          </div>
+
+          <div class="img-content">
+            <h4>Full Body Workout</h4>
+            <p>Today 3pm</p>
+          </div>
+        </div>
+
+        <div class="toggle-switch">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="workout-sec">
+        <div class="left">
+          <div class="img-div">
+            <img src="../imgs/workout-2.png" alt="" />
+          </div>
+
+          <div class="img-content">
+            <h4>Upper Body Workout</h4>
+            <p>4 Feb, 3:30pm</p>
+          </div>
+        </div>
+
+        <div class="toggle-switch">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="footer">
+        <i class="fa fa-house"></i>
+        <i class="fa fa-signal"></i>
+        <i class="fa fa-camera"></i>
+        <i class="fa fa-user"></i>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="../javascript/page6.js"></script>
+  </body>
+</html>

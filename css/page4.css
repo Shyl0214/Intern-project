@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 345px;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 1rem 0 1rem;
+  /* margin-top: 0.5rem; */
+}
+
+nav h4 {
+  margin: 0;
+  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.icons i {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.header {
+  padding: 15px;
+  margin-top: 0.5rem;
+}
+
+.header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-top: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8rem;
+}
+
+input {
+  width: 320px;
+  height: 50px;
+  padding: 15px;
+  border: none;
+  border: 0.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 300;
+  background-color: #f1f1f1;
+}
+
+.form-group-txt {
+  margin-top: 0.2rem;
+  margin-left: 1rem;
+}
+
+.form-group-txt #para {
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.form-group-txt #para:hover {
+  cursor: pointer;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  padding-right: 30px;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-weight: 100;
+}
+
+.password-input i {
+  font-weight: 100;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 9rem;
+}
+
+#btn button {
+  width: 320px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  background: linear-gradient(270deg, #7b91ff 0%, #95beff 100%);
+  color: #fff;
+}
+
+#btn button:hover {
+  cursor: pointer;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.or-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or-text {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.social-icons-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 1.2rem;
+}
+
+.google,
+.facebook {
+  width: 44px;
+  height: 44px;
+}
+
+.google,
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: 0.5px solid #7f7f7f;
+  border-radius: 8px;
+}
+
+.google button {
+  width: 22px;
+  height: 22px;
+  border: none;
+}
+
+.google button:hover {
+  cursor: pointer;
+}
+
+.facebook button {
+  width: 25px;
+  height: 25px;
+  border: none;
+}
+
+.facebook button:hover {
+  cursor: pointer;
+}
+
+.google img {
+  width: 100%;
+  height: 100%;
+}
+
+.facebook img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.footer p {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  text-align: center;
+}
